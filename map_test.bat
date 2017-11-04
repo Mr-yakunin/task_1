@@ -1,0 +1,2 @@
+cd /D D:\hadoop\project
+hadoop com.sun.tools.javac.Main testmap\WebLogWritable.java && hadoop com.sun.tools.javac.Main testmap\WebLogWritable.java testmap\WebLogMapper.java && javac -cp "D:\hadoop\share\hadoop\common\*";D:\hadoop\testing\*;"D:\hadoop\share\hadoop\common\lib\*";"D:\hadoop\testing\t\*"; MapperTest.java && java -cp "D:\hadoop\share\hadoop\common\*";D:\hadoop\testing\*;"D:\hadoop\share\hadoop\common\lib\*";"D:\hadoop\testing\t\*"; org.junit.runner.JUnitCore MapperTest

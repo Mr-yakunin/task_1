@@ -1,0 +1,2 @@
+cd /F D:\hadoop\project
+hadoop com.sun.tools.javac.Main source\WebLogWritable.java && hadoop com.sun.tools.javac.Main source\WebLogWritable.java source\WebLogMapper.java && hadoop com.sun.tools.javac.Main source\WebLogWritable.java source\WebLogReducer.java && hadoop com.sun.tools.javac.Main WebLogReader.java && jar cf web.jar WebLogReader.class source/*.class
